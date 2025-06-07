@@ -1,0 +1,91 @@
+#Resume {
+    display: none;
+    padding: 25px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.skill {
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.edu_boxes {
+    display: flex;
+    width: 100%;
+}
+
+.edu_box1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 5%;
+    /* background-color: rgb(12, 11, 11); */
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 2px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+.edu_label {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 2px;
+}
+
+.edu_bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.pro_bullet1 {
+    margin-top: 30px;
+}
+
+.pro_bullet2 {
+    margin-top: 140px;
+}
+
+.points {
+    margin: 0 20px;
+}
+
+.edu_bullet1 {
+    margin-top: 28px;
+}
+
+.edu_bullet2 {
+    margin-top: 92px;
+}
+
+.edu_box2 {
+    padding: 6px;
+    width: 95%;
+    /* background-color: black; */
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: 600;
+}

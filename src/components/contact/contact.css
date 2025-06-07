@@ -1,0 +1,39 @@
+#Contact {
+    display: none;
+    padding: 25px;
+}
+
+.contact_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 10%;
+}
+
+input {
+    width: 45%;
+    height: 50px;
+    border-radius: 15px;
+    padding: 0 20px;
+    font-size: 1.1rem;
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 1.1rem;
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    outline: none;
+}
+
+.send_btn {
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 0, 0.658);
+    cursor: pointer;
+}
