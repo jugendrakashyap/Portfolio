@@ -6,14 +6,14 @@ function Profile() {
     return (
         <section className='profile'>
             <div className='profile_box'>
-                <img className='photo' src="/src/assets/Photo.jpg" alt="" />
+                <img className='photo' src="src/assets/Photo.jpg" alt="" />
                 <h2>Jugendra Kashyap</h2>
                 <p className='profession'>FullStack Developer</p>
             </div>
             <div className='details_box'>
                 <div className='detail_box'>
                     <div className='icon'>
-                        <img id='email_img' src="email.png" alt="email" />
+                        <img id='email_img' src="src/assets/email.png" alt="email" />
                     </div>
                     <div>
                         <p className='label'>EMAIL</p>

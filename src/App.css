@@ -8,9 +8,7 @@
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100vw;
-  height: 100vh;
   gap: 25px;
   padding: 30px 50px;
 }
@@ -63,4 +61,20 @@ section {
 
 .links {
   cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .address {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 0;
+  }
+
+  main {
+    padding: 20px;
+  }
 }
