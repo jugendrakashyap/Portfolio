@@ -8,9 +8,11 @@
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100vw;
+  height: 100vh;
   gap: 25px;
-  padding: 50px 80px;
+  padding: 30px 50px;
 }
 
 section {
@@ -18,7 +20,9 @@ section {
 }
 
 .sec2 {
-  width: 100%;
+  width: 75%;
+  height: 100%;
+  min-height: fit-content;
   background-color: rgb(43, 43, 43);
   border: 2px solid rgba(255, 255, 255, 0.199);
   /* padding: 0 25px; */

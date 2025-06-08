@@ -4,10 +4,10 @@
 }
 
 .contact_form {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
-    gap: 10%;
+    justify-content: space-between;
 }
 
 input {
