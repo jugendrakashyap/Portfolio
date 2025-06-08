@@ -13,7 +13,7 @@ function Profile() {
             <div className='details_box'>
                 <div className='detail_box'>
                     <div className='icon'>
-                        <img id='email_img' src="src/assets/email.png" alt="email" />
+                        <img id='email_img' src="src/assets/email.png" alt="" />
                     </div>
                     <div>
                         <p className='label'>EMAIL</p>

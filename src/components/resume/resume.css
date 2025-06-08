@@ -76,7 +76,6 @@
 .edu_box2 {
     padding: 6px;
     width: 95%;
-    /* background-color: black; */
 }
 
 .title {
@@ -88,4 +87,10 @@
 
 span {
     font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+    .pro_bullet2 {
+        margin-top: 308px;
+    }
 }
