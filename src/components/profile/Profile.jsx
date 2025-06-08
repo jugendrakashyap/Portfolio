@@ -41,7 +41,11 @@ function Profile() {
                         <p>Ahmedabad, Gujrat</p>
                     </div>
                 </div>
-                <div className='detail_box'>social links</div>
+                <div className='social_box'>
+                    <img className='social_links' src="#" alt="" />
+                    <img className='social_links' src="#" alt="" />
+                    <img className='social_links' src="#" alt="" />
+                </div>
             </div>
         </section>
     )

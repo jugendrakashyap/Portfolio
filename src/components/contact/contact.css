@@ -7,13 +7,19 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input_boxes {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
 }
 
 input {
-    width: 45%;
+    width: 48%;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 0 20px;
     font-size: 1.1rem;
     border: 2px solid rgba(255, 255, 255, 0.151);
@@ -23,7 +29,7 @@ input {
 textarea {
     width: 100%;
     margin-top: 25px;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 20px;
     font-size: 1.1rem;
     border: 2px solid rgba(255, 255, 255, 0.151);
@@ -34,6 +40,9 @@ textarea {
     padding: 10px 20px;
     margin-top: 25px;
     font-size: 1.1rem;
-    color: rgba(255, 255, 0, 0.658);
+    border-radius: 10px;
+    color: orange;
     cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    background-color: rgb(60, 60, 60);
 }

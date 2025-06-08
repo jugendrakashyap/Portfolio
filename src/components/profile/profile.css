@@ -3,8 +3,6 @@
     min-width: 280px;
     height: 100%;
     padding: 30px 25px;
-    background-color: rgb(56, 56, 56);
-    border: 2px solid rgb(27, 27, 27);
 }
 
 .profile_box {
@@ -46,6 +44,20 @@
     /* background-color: black; */
     border-radius: 5px;
     contain: content;
+}
+
+.social_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social_links {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .icon {
