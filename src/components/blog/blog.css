@@ -2,3 +2,16 @@
     display: none;
     padding: 25px;
 }
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(56, 56, 56);
+}

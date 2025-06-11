@@ -23,7 +23,7 @@ function Profile() {
                 <div className='detail_box'>
                     <div className='icon'></div>
                     <div>
-                        <p className='label'>MOBILE</p>
+                        <p className='label'>MOBILE & WHATSAPP</p>
                         <p>+91 7217205976</p>
                     </div>
                 </div>

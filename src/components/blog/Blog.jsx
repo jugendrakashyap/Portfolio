@@ -3,7 +3,16 @@ import './blog.css'
 
 function Blog() {
   return (
-    <div id='Blog'>Blog</div>
+    <div id='Blog'>
+      <div className="blogs">
+        <div className="blog"></div>
+        <div className="blog"></div>
+        <div className="blog"></div>
+        <div className="blog"></div>
+        <div className="blog"></div>
+        <div className="blog"></div>
+      </div>
+    </div>
   )
 }
 
