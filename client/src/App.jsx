@@ -32,13 +32,13 @@ function App() {
           <div className='address'>
             <h2 className='address_text'>{component == 'About' ? 'About me' : component}</h2>
           </div>
-          <div className='navbar'>
+          <nav className='navbar'>
             <p className='links' id='About_text' onClick={() => showComponent('About')}>About</p>
             <p className='links' id='Resume_text' onClick={() => showComponent('Resume')}>Resume</p>
             <p className='links' id='Portfolio_text' onClick={() => showComponent('Portfolio')}>Portfolio</p>
             <p className='links' id='Blog_text' onClick={() => showComponent('Blog')}>Blog</p>
             <p className='links' id='Contact_text' onClick={() => showComponent('Contact')}>Contact</p>
-          </div>
+          </nav>
         </div>
         <About />
         <Resume />

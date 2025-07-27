@@ -1,6 +1,9 @@
 #Blog {
     display: none;
     padding: 25px;
+    max-height: 85vh;
+    overflow-x: hidden;
+    contain: content;
 }
 
 .blogs {
