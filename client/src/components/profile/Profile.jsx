@@ -8,7 +8,7 @@ function Profile() {
             <div className='profile_box'>
                 <img className='photo' src="src/assets/Photo.jpg" alt="" />
                 <h2>Jugendra Kashyap</h2>
-                <p className='profession'>FullStack Developer</p>
+                <p className='profession'>FullStack & Mobile Developer</p>
             </div>
             <div className='details_box'>
                 <div className='detail_box'>

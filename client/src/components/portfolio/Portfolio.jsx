@@ -40,7 +40,9 @@ function Portfolio() {
           </div>
         </div>
         <div className='all webApp'>
-          <div className='img_box'></div>
+          <div className='img_box'>
+            <img className='img' src="src/assets/DigiLibrary.png" alt="" />
+          </div>
           <div className='text_box'>
             <h4>ebook</h4>
             <p className='label_text'>Web Development</p>

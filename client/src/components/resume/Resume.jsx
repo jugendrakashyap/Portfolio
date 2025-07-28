@@ -6,20 +6,85 @@ function Resume() {
         <div id='Resume'>
             <h1>Skills</h1>
             <div className='skills'>
-                <p className='skill'>HTML</p>
-                <p className='skill'>CSS</p>
-                <p className='skill'>JavaScript</p>
-                <p className='skill'>React</p>
-                <p className='skill'>Node.js</p>
-                <p className='skill'>Express.js</p>
-                <p className='skill'>MongoDB</p>
-                <p className='skill'>Git</p>
-                <p className='skill'>Github</p>
+                <div className='skill'>
+                    <p>HTML</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>CSS</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>JavaScript</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>React</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>Node.js</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>Express.js</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>MongoDB</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>Git</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>Github</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>React Native</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>Next.js</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
+                <div className='skill'>
+                    <p>Java</p>
+                    <div className="lavel-outer">
+                        <div className="lavel-inner"></div>
+                    </div>
+                </div>
             </div>
             <div className='edu_boxes'>
                 <div className='edu_box1'>
                     <div className='line'>
-                        <div className='edu_label'></div>
+                        <div className='edu_label'>
+                            <img className='icon' src="https://cdn-icons-png.flaticon.com/512/864/864702.png" alt="" />
+                        </div>
                         <div className='edu_bullet pro_bullet1'></div>
                         <div className='edu_bullet pro_bullet2'></div>
                     </div>
