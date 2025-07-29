@@ -34,7 +34,7 @@ function Portfolio() {
       <div className='all_containers'>
         <div className='all mobApp'>
           <div className='img_box'>
-            <img className='img'  src="DigiLibrary-mobile.png" alt="" />
+            <img className='img' src="DigiLibrary-mobile.png" alt="" />
           </div>
           <div className='text_box'>
             <h4>DigiLibrary - android app</h4>
@@ -43,7 +43,9 @@ function Portfolio() {
         </div>
         <div className='all webApp'>
           <div className='img_box'>
-            <img className='img'  src="DigiLibrary.png" alt="" />
+            <a href="https://digi-library-henna.vercel.app">
+              <img className='img' src="DigiLibrary.png" alt="" />
+            </a>
           </div>
           <div className='text_box'>
             <h4>DigiLibrary</h4>
@@ -52,7 +54,9 @@ function Portfolio() {
         </div>
         <div className='all webDesign'>
           <div className='img_box'>
-            <img className='img'  src="spotify.png" alt="" />
+            <a href="https://spotify-ten-sooty.vercel.app">
+              <img className='img' src="spotify.png" alt="" />
+            </a>
           </div>
           <div className='text_box'>
             <h4>Spotify Clone</h4>
@@ -61,7 +65,7 @@ function Portfolio() {
         </div>
         <div className='all webApp'>
           <div className='img_box'>
-            <img className='img'  src="DigiLibrary.png" alt="" />
+            <img className='img' src="DigiLibrary.png" alt="" />
           </div>
           <div className='text_box'>
             <h4>DigiLibrary</h4>
@@ -70,7 +74,7 @@ function Portfolio() {
         </div>
         <div className='all webApp'>
           <div className='img_box'>
-            <img className='img'  src="tvs.png" alt="" />
+            <img className='img' src="tvs.png" alt="" />
           </div>
           <div className='text_box'>
             <h4>TVS</h4>
@@ -79,7 +83,7 @@ function Portfolio() {
         </div>
         <div className='all'>
           <div className='img_box'>
-            <img className='img'  src="DigiLibrary-mobile.png" alt="" />
+            <img className='img' src="DigiLibrary-mobile.png" alt="" />
           </div>
           <div className='text_box'>
             <h4>ebook</h4>
@@ -87,7 +91,7 @@ function Portfolio() {
           </div></div>
         <div className='all mobApp'>
           <div className='img_box'>
-            <img className='img'  src="DigiLibrary-mobile.png" alt="" />
+            <img className='img' src="DigiLibrary-mobile.png" alt="" />
           </div>
           <div className='text_box'>
             <h4>ebook</h4>
@@ -96,7 +100,7 @@ function Portfolio() {
         </div>
         <div className='all webDesign'>
           <div className='img_box'>
-            <img className='img'  src="spotify.png" alt="" />
+            <img className='img' src="spotify.png" alt="" />
           </div>
           <div className='text_box'>
             <h4>ebook</h4>
@@ -105,7 +109,7 @@ function Portfolio() {
         </div>
         <div className='all webDesign'>
           <div className='img_box'>
-            <img className='img'  src="tvs.png" alt="" />
+            <img className='img' src="tvs.png" alt="" />
           </div>
           <div className='text_box'>
             <h4>Spotify clone</h4>
