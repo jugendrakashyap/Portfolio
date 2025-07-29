@@ -33,9 +33,11 @@ function Portfolio() {
       </nav>
       <div className='all_containers'>
         <div className='all mobApp'>
-          <div className='img_box'></div>
+          <div className='img_box'>
+            <img className='img' src="src/assets/DigiLibrary-mobile.png" alt="" />
+          </div>
           <div className='text_box'>
-            <h4>ebook</h4>
+            <h4>DigiLibrary - android app</h4>
             <p className='label_text'>Mobile App</p>
           </div>
         </div>
@@ -44,55 +46,69 @@ function Portfolio() {
             <img className='img' src="src/assets/DigiLibrary.png" alt="" />
           </div>
           <div className='text_box'>
-            <h4>ebook</h4>
+            <h4>DigiLibrary</h4>
             <p className='label_text'>Web Development</p>
           </div>
         </div>
         <div className='all webDesign'>
-          <div className='img_box'></div>
-          <div className='text_box'>
-            <h4>ebook</h4>
-            <p className='label_text'>Web Design</p>
+          <div className='img_box'>
+            <img className='img' src="src/assets/spotify.png" alt="" />
           </div>
-        </div>
-        <div className='all webApp'>
-          <div className='img_box'></div>
           <div className='text_box'>
-            <h4>ebook</h4>
+            <h4>Spotify Clone</h4>
             <p className='label_text'>Web Development</p>
           </div>
         </div>
         <div className='all webApp'>
-          <div className='img_box'></div>
+          <div className='img_box'>
+            <img className='img' src="src/assets/DigiLibrary.png" alt="" />
+          </div>
           <div className='text_box'>
-            <h4>ebook</h4>
+            <h4>DigiLibrary</h4>
+            <p className='label_text'>Web Development</p>
+          </div>
+        </div>
+        <div className='all webApp'>
+          <div className='img_box'>
+            <img className='img' src="src/assets/tvs.png" alt="" />
+          </div>
+          <div className='text_box'>
+            <h4>TVS</h4>
             <p className='label_text'>Web Development</p>
           </div>
         </div>
         <div className='all'>
-          <div className='img_box'></div>
+          <div className='img_box'>
+            <img className='img' src="src/assets/DigiLibrary-mobile.png" alt="" />
+          </div>
           <div className='text_box'>
             <h4>ebook</h4>
             <p className='label_text'>Web Development</p>
           </div></div>
         <div className='all mobApp'>
-          <div className='img_box'></div>
+          <div className='img_box'>
+            <img className='img' src="src/assets/DigiLibrary-mobile.png" alt="" />
+          </div>
           <div className='text_box'>
             <h4>ebook</h4>
             <p className='label_text'>Mobile App</p>
           </div>
         </div>
         <div className='all webDesign'>
-          <div className='img_box'></div>
+          <div className='img_box'>
+            <img className='img' src="src/assets/spotify.png" alt="" />
+          </div>
           <div className='text_box'>
             <h4>ebook</h4>
             <p className='label_text'>Web Design</p>
           </div>
         </div>
         <div className='all webDesign'>
-          <div className='img_box'></div>
+          <div className='img_box'>
+            <img className='img' src="src/assets/tvs.png" alt="" />
+          </div>
           <div className='text_box'>
-            <h4>ebook</h4>
+            <h4>Spotify clone</h4>
             <p className='label_text'>Web Development</p>
           </div>
         </div>

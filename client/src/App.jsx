@@ -16,6 +16,7 @@ function App() {
       links[i].style.color = 'white';
     }
     document.getElementById(`${component}_text`).style.color = 'orange';
+    document.getElementById(`${component}_text`).style.filter = 'drop-shadow(0 0 3px rgba(28, 28, 28, 0.49))';
   }, [component])
 
   function showComponent(value) {

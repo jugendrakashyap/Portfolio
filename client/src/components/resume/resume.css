@@ -70,32 +70,36 @@
 
 .edu_boxes {
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
-.edu_box1 {
+.bullet_box {
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    width: 5%;
+    width: 100%;
     /* background-color: rgb(12, 11, 11); */
 }
 
+.main_bullet {
+    margin-top: 25px;
+}
+
 .line {
+    margin: 0 30px 0 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: center;
     width: 2px;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.495);
 }
 
 .edu_label {
     display: flex;
     align-items: center;
     background-color: rgb(77, 77, 77);
-    border-radius: 3px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.49);
 }
 
 .icon {
@@ -106,48 +110,24 @@
 .edu_bullet {
     width: 10px;
     height: 10px;
+    margin-top: 10px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.925);
 }
 
-.pro_bullet1 {
-    margin-top: 30px;
-}
-
-.pro_bullet2 {
-    margin-top: 140px;
-}
-
 .points {
-    margin: 0 20px;
+    width: 100%;
+    margin: 10px 0 10px 20px;
 }
 
-.edu_bullet1 {
-    margin-top: 28px;
-}
-
-.edu_bullet2 {
-    margin-top: 92px;
-}
-
-.edu_box2 {
-    padding: 6px;
-    width: 95%;
-}
-
-.title {
+.project_title {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
 }
 
 span {
     font-weight: 600;
-}
-
-@media screen and (max-width: 500px) {
-    .pro_bullet2 {
-        margin-top: 308px;
-    }
 }
