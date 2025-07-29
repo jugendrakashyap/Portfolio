@@ -7,7 +7,7 @@ function Profile() {
         <section className='profile'>
             <div className='profile_box'>
                 <div className='photo_box'>
-                    <img className='photo' src="assets/Photo.jpg" alt="image" />
+                    <img className='photo' src="Photo.jpg" alt="image" />
                 </div>
                 <h2>Jugendra Kashyap</h2>
                 <p className='profession'>FullStack & Mobile Developer</p>
