@@ -49,6 +49,20 @@
     justify-content: center;
 }
 
+.maps-container {
+    width: "100%";
+    height: "550px";
+    border: "1px solid #ccc";
+    border-radius: "8px";
+    overflow: "hidden";
+    /* padding: 20px; */
+    /* background-color: white; */
+}
+
+.maps {
+    border: none;
+}
+
 .input_boxes {
     width: 100%;
     display: flex;

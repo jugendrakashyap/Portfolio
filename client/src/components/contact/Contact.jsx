@@ -1,6 +1,4 @@
-import React from 'react'
 import './contact.css'
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
@@ -20,12 +18,12 @@ function Contact() {
 
     return (
         <div id='Contact'>
-            <div style={{ width: "100%", height: "450px", border: "1px solid #ccc", borderRadius: "8px", overflow: "hidden" }}>
+            <div className='maps-container' style={{ height: "450px", border: "1px solid #ccc", borderRadius: "8px", overflow: "hidden" }}>
                 <iframe
+                    className='maps'
                     src="https://maps.google.com/maps?q=28.6552361,77.2297823&z=12&t=k&output=embed"
                     width="100%"
                     height="100%"
-                    style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
@@ -33,15 +31,15 @@ function Contact() {
                 ></iframe>
             </div>
             <div className='contact_box'>
-            <h1>Contact Form</h1>
-            <form className='contact_form' action="">
-                <div className='input_boxes'>
-                    <input type="text" placeholder='Full name' />
-                    <input type="email" name="" id="" placeholder='Email' />
-                </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder='Your message'></textarea>
-                <button className='send_btn'>Send Message</button>
-            </form>
+                <h1>Contact Form</h1>
+                <form className='contact_form' action="">
+                    <div className='input_boxes'>
+                        <input type="text" placeholder='Full name' />
+                        <input type="email" name="" id="" placeholder='Email' />
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder='Your message'></textarea>
+                    <button className='send_btn'>Send Message</button>
+                </form>
             </div>
         </div>
     )
